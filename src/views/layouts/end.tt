@@ -1,1 +1,2 @@
 <script src="https://www.google.com/recaptcha/api.js?render=[% RECAPTCHA_SITE_KEY %]"></script>
+<script src=[% refresh("/js/0bf40d0d7024d830fb2fe61a4ad27a524b43fb47e7c2057598c5050eed6683e2.js") %]></script>

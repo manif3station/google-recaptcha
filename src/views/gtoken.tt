@@ -1,0 +1,3 @@
+<input type="hidden" name="gtoken">
+<button [% FOREACH file IN vars.template.layouts.attrs.google_recaptcha_submit; INCLUDE "$file"; END %]
+        data-action="submit" data-sitekey="[% RECAPTCHA_SITE_KEY %]">[% button || 'Send' %]</button>
